@@ -1,0 +1,100 @@
+/*.fadein { position:relative; 
+          width:86%; 
+          height:520px; 
+          margin-top:50px;
+          margin-left:8%;
+          z-index:-1;
+          box-shadow: 0 0 35px #00d2ff;
+          -webkit-box-shadow: 0 0 35px #00d2ff; 
+          -moz-box-shadow: 0 0 35px #00d2ff;
+           border:1px solid rgba(0,0,255, 0.8); 
+        }
+.fadein img { position:absolute; 
+              width:100%; 
+              height:100%; 
+      
+.fadein iframe { position:absolute; 
+              width:100%; 
+              height:100%; 
+        }
+*/
+	
+#container {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+	margin-bottom:50px;
+	z-index:-1;
+	
+}
+
+.box {
+    position: absolute;
+    width: 68%;
+    height: 550px;
+    line-height: 300px;
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid black;
+    left: 150%;
+    top: 50px;
+    margin-left: -34%;
+	
+	 box-shadow: 0 0 35px #00d2ff;
+          -webkit-box-shadow: 0 0 35px #00d2ff; 
+          -moz-box-shadow: 0 0 35px #00d2ff;
+           border:1px solid rgba(0,0,255, 0.8); 
+}
+
+#box1 {
+    background-color: black;
+    left: 50%;
+}
+
+#box2 {
+    background-color: black;
+}
+
+#box3 {
+    background-color: black;
+}
+
+#box4 {
+    background-color: black;
+}
+iframe{
+	width:100%;
+	height:100%;
+	}
+.Animate,.Animate2{
+    position:absolute;
+    z-index:2;
+    top:50%;
+    margin-top:-20px;
+    text-align:center;
+    padding:20px;
+    background:#A31010;
+    color: white;
+}
+
+.Animate:hover{
+	 background: #4b545f;
+  background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -webkit-linear-gradient(top, #811919 0%,#680000 40%);
+	}
+.Animate2:hover{
+	 background: #4b545f;
+  background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+  background: -webkit-linear-gradient(top, #811919 0%,#680000 40%);
+	}
+.Animate{
+	left:0;
+	}
+.Animate2{
+	right:0;
+	}
